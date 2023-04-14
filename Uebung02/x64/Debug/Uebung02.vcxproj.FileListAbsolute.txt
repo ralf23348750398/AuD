@@ -1,0 +1,3 @@
+D:\Nextcloud\Ralf_Personal\01 Schule & Studium\01 Studium\05 Semester 2\Algorithmen und Datenstrukturen\C++\Uebung02\x64\Debug\Uebung02.exe
+C:\Users\Ralf\Nextcloud\Ralf\01 Schule & Studium\01 Studium\05 Semester 2\Algorithmen und Datenstrukturen\C++\Uebung02\x64\Debug\Uebung02.exe
+C:\Users\Ralf\Nextcloud\Ralf\01 Schule & Studium\01 Studium\05 Semester 2\Algorithmen und Datenstrukturen\Übungen\C++\Uebung02\x64\Debug\Uebung02.exe
