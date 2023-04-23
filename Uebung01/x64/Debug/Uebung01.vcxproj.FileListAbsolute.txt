@@ -1,3 +1,4 @@
 D:\Nextcloud\Ralf_Personal\01 Studium\05 Semester 2\Algorithmen und Datenstrukturen\C++\Uebung01\x64\Debug\Uebung01.exe
 C:\Users\Ralf\Nextcloud\Ralf\01 Schule & Studium\01 Studium\05 Semester 2\Algorithmen und Datenstrukturen\C++\Uebung01\x64\Debug\Uebung01.exe
 C:\Users\Ralf\Nextcloud\Ralf\01 Schule & Studium\01 Studium\05 Semester 2\Algorithmen und Datenstrukturen\Übungen\C++\Uebung01\x64\Debug\Uebung01.exe
+C:\Users\Ralf\git repos\C++\AuD\Uebung01\x64\Debug\Uebung01.exe
