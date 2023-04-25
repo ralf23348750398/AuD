@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 #Debug folder
-*/Debug/
+x64/Debug/
 
 # User-specific files
 *.rsuser
