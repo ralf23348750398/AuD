@@ -12,7 +12,7 @@ private:
 	int anz_items;
 public:
 	Stack(){
-		tail(nullptr);
+		tail = nullptr;
 		anz_items = 0;
 	}
 	~Stack() {
@@ -21,7 +21,9 @@ public:
 		}
 	}
 	void push(item_type& r) {
-		node* new_node = new node(r, tail);
+		node* new_node = new node;
+		new_node->item = r;
+		new_node->next = tail;
 		anz_items++;
 		tail = new_node;
 	}
