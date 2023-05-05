@@ -17,9 +17,7 @@ int precedence(char c) {
     else if (c == '*' || c == '/') {
         return 2;
     }
-    else {
-        return 0;
-    }
+    return 0;
 }
 
 string infixToPostfix(string infix) {
@@ -60,7 +58,7 @@ double evaluatePostfix(string postfix) {
 
     for (char c : postfix) {
         if (isdigit(c)) {
-            double digit = c - '0';
+            double digit = c - '0'; //char to double
             s.push(digit);
         }
         else if (c == '+' || c == '-' || c == '*' || c == '/') {

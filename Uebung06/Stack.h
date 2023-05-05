@@ -20,7 +20,7 @@ public:
 			pop();
 		}
 	}
-	void push(item_type& r) {
+	void push(const item_type& r) {
 		node* new_node = new node;
 		new_node->item = r;
 		new_node->next = tail;
