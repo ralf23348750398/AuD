@@ -1,4 +1,27 @@
-﻿  Stack.cpp
+﻿  A23.cpp
   Uebung06.cpp
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Uebung06.cpp(72,33): error C2664: 'void Stack<double>::push(item_type &)': cannot convert argument 1 from 'double' to 'item_type &'
+          with
+          [
+              item_type=double
+          ]
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Stack.h(23,7): message : see declaration of 'Stack<double>::push'
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Uebung06.cpp(75,33): error C2664: 'void Stack<double>::push(item_type &)': cannot convert argument 1 from 'double' to 'item_type &'
+          with
+          [
+              item_type=double
+          ]
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Stack.h(23,7): message : see declaration of 'Stack<double>::push'
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Uebung06.cpp(78,33): error C2664: 'void Stack<double>::push(item_type &)': cannot convert argument 1 from 'double' to 'item_type &'
+          with
+          [
+              item_type=double
+          ]
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Stack.h(23,7): message : see declaration of 'Stack<double>::push'
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Uebung06.cpp(81,33): error C2664: 'void Stack<double>::push(item_type &)': cannot convert argument 1 from 'double' to 'item_type &'
+          with
+          [
+              item_type=double
+          ]
+C:\Users\Ralf\git repos\C++\AuD\Uebung06\Stack.h(23,7): message : see declaration of 'Stack<double>::push'
   Generating Code...
-  Uebung06.vcxproj -> C:\Users\Ralf\git repos\C++\AuD\x64\Debug\Uebung06.exe
