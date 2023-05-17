@@ -84,8 +84,8 @@ void selection_sort(unsigned int* arr1, int length) {
 }
 
 void bubblesort(unsigned int* arr, int length, unsigned int* comparisons) {
-	for (int i = 0; i < length; i++) {
-		for (int j = 0; j < length - i - 1; j++) {
+	for (int i = 0; i < length-1; i++) {
+		for (int j = length-2; j >= i; j--) {
 			if (arr[j] > arr[j + 1]) {
 				swap(arr[j], arr[j + 1]);
 			}
@@ -94,6 +94,18 @@ void bubblesort(unsigned int* arr, int length, unsigned int* comparisons) {
 		printArray(arr, length);
 	}
 }
+
+//void bubblesort(unsigned int* arr, int length, unsigned int* comparisons) {
+//	for (int i = 0; i < length; i++) {
+//		for (int j = 0; j < length - i - 1; j++) {
+//			if (arr[j] > arr[j + 1]) {
+//				swap(arr[j], arr[j + 1]);
+//			}
+//			*comparisons += 1;
+//		}
+//		printArray(arr, length);
+//	}
+//}
 
 void bubblesort(unsigned int* arr1, int length) {
 	unsigned int count = 0;
